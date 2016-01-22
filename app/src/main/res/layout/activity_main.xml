@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    >
+    <Button
+        android:id="@+id/sign_on"
+        android:text="登陆"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/setip_enter"
+        android:text="配置ip"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+</LinearLayout>
